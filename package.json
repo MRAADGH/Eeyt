@@ -1,0 +1,39 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot using Telegraf",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "telegraf": "^4.7.0",
+    "geoip-lite": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "useragent": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "tinyurl": "^1.1.7",
+    "mongodb": "^5.2.1",
+    "axios": "^1.4.0",
+    "uuid": "^9.0.0",
+    "sqlite3": "^5.1.6",
+    "crypto-js": "^4.1.1",
+    "node-rsa": "^1.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "https-proxy-agent": "^5.0.0",
+    "ipinfo": "^1.0.1",
+    "ioredis": "^5.3.2",
+    "bull": "^4.0.0",
+    "cluster": "^0.7.7",
+    "os": "^0.1.1",
+    "agentkeepalive": "^4.6.0"
+
+  }
+}
